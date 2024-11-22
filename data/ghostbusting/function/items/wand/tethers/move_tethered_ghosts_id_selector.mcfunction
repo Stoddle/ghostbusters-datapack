@@ -1,0 +1,1 @@
+$execute as @e[type=!#ghosbuting:tethers_cant_hit,scores={tetherID=$(current_tether_id)}] at @s run function ghostbusting:items/wand/tethers/move_tethered_ghosts

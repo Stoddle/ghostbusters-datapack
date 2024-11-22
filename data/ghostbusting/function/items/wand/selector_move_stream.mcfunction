@@ -1,0 +1,1 @@
+$execute as @e[tag=stream,scores={streamID=$(current_stream_id)}] at @s run function ghostbusting:items/wand/move_stream with storage gb

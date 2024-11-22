@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"switchBox\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ghostbusting:items/switch/left_click"
+    }
+  }
+  

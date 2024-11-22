@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      "minecraft:heavy_weighted_pressure_plate",
+      "minecraft:redstone"
+    ],
+    "result": {
+      "id": "minecraft:echo_shard",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "Switch",
+        "minecraft:custom_data": "{itemIDgb:4}",
+        "minecraft:item_model": "ghostbusters:other/trap_switch",
+        "minecraft:consumable": {
+          "consume_seconds": 0,
+          "sound": "block.stone_button.click_off",
+          "has_consume_particles": false
+        },
+        "minecraft:use_cooldown": {
+          "seconds": 0.5,
+          "cooldown_group": "ghostbusting:switch"
+        },
+        "minecraft:rarity": "common"
+      }
+    }
+  }

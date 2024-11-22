@@ -1,0 +1,1 @@
+execute as @e[tag=ghost,limit=1,sort=nearest,distance=..6,scores={scanProgress=..20}] at @s run function ghostbusting:items/pke_meter/scan

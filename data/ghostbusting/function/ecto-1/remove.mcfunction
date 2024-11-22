@@ -1,0 +1,3 @@
+execute store result storage gb current_ecto1_id int 1 run scoreboard players get @s ecto1ID
+function ghostbusting:ecto-1/select_cars_id with storage gb
+summon item ~ ~1 ~ {Tags:["spawnEcto1Here"],Item:{id:"minecraft:armor_stand",count:1,components:{"minecraft:entity_data":{id:"minecraft:armor_stand",Marker:1b,Invisible:1b,Tags:["spawnEcto1Here"]},"minecraft:item_model":"ghostbusters:other/ecto-1","minecraft:item_name":'"Ecto-1"',"minecraft:max_stack_size":1}}}

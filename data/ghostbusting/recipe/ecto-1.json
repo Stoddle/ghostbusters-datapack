@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "ini",
+      "gsg",
+      "ifi"
+    ],
+    "key": {
+      "i": "minecraft:iron_block",
+      "n": "minecraft:note_block",
+      "g": "minecraft:glass_pane",
+      "s": "minecraft:saddle",
+      "f": "minecraft:furnace_minecart"
+    },
+    "result": {
+      "id": "minecraft:armor_stand",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "'Ecto-1'",
+        "minecraft:item_model": "ghostbusters:other/ecto-1",
+        "minecraft:max_stack_size": 1,
+        "minecraft:entity_data": {
+          "id": "minecraft:armor_stand",
+          "Marker": true,
+          "Invisible": true,
+          "Tags": ["spawnEcto1Here"]
+        }
+      }
+    },
+    "show_notification": true
+  }
+  

@@ -1,0 +1,1 @@
+execute if score .doCUBeacon gbGamerules matches 1.. run function ghostbusting:containment_unit/beacon_effect

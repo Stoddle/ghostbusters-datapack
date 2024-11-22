@@ -1,0 +1,2 @@
+scoreboard players set .temp2 variables 0
+execute anchored feet facing entity @e[tag=trapBox,tag=!full,limit=1,scores={trapProgress=0},sort=nearest] feet positioned ^ ^ ^0.5 run function ghostbusting:items/switch/trace_cable

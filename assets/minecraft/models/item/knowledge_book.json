@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/knowledge_book"
+    },
+
+    "overrides": [
+        {"predicate": {"custom_model_data":5}, "model":"item/ghosts/ahh"},
+        {"predicate": {"custom_model_data":6}, "model":"item/ghosts/blargh"},
+        {"predicate": {"custom_model_data":7}, "model":"item/ghosts/ghoster"},
+        {"predicate": {"custom_model_data":8}, "model":"item/ghosts/goober"},
+        {"predicate": {"custom_model_data":9}, "model":"item/ghosts/hubert"},
+        {"predicate": {"custom_model_data":10}, "model":"item/ghosts/lenny"},
+        {"predicate": {"custom_model_data":11}, "model":"item/ghosts/purple_girl"},
+        {"predicate": {"custom_model_data":12}, "model":"item/ghosts/sir_goldale"},
+        {"predicate": {"custom_model_data":13}, "model":"item/ghosts/sunny"},
+        {"predicate": {"custom_model_data":14}, "model":"item/ghosts/swampert"},
+        {"predicate": {"custom_model_data":15}, "model":"item/ghosts/yee"}
+    ]
+
+}

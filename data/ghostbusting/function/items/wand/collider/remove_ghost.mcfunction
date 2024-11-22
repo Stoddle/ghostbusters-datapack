@@ -1,0 +1,1 @@
+$kill @e[scores={ghostID=$(current_ghost_id)}]

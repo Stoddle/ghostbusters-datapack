@@ -1,0 +1,1 @@
+execute as @e[tag=selectedUnit,limit=1,sort=nearest] at @s if score @s containsEmptyTrap matches 0 if score @s containsFullTrap matches 0 run return run function ghostbusting:containment_unit/insert_trap

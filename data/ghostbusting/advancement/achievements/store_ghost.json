@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:echo_shard",
+        "components": {
+          "minecraft:item_model": "ghostbusters:containment_unit/unit"
+        }
+      },
+      "title": "Ecto-Containment",
+      "description": "Store a ghost in a Containment Unit",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "ghostbusting:achievements/catch_ghost",
+    "criteria": {
+      "": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

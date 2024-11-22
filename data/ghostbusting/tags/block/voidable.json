@@ -1,0 +1,18 @@
+{
+    "values":
+    [
+        "#minecraft:air",
+        "#minecraft:wool_carpets",
+        "#minecraft:pressure_plates",
+        "#minecraft:signs",
+        "#minecraft:saplings",
+        "#rails",
+        "#minecraft:flowers",
+        "minecraft:light",
+        "minecraft:tall_grass",
+        "minecraft:short_grass",
+        "minecraft:water",
+        "minecraft:lava",
+        "minecraft:snow"
+    ]
+}

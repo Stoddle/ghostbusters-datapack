@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "l l",
+      "l l"
+    ],
+    "key": {
+      "l": "minecraft:phantom_membrane"
+    },
+    "result": {
+      "id": "minecraft:leather_boots",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "'Flight suit (boots)'",
+        "minecraft:item_model": "ghostbusters:other/suit_boots",
+        "minecraft:equippable": {
+          "slot": "feet",
+          "model": "ghostbusters:ghostbusters_outfit"
+        },
+        "minecraft:custom_data": "{ghostbustersOutfit:1b}",
+        "minecraft:unbreakable": {
+          "show_in_tooltip": false
+        }
+      }
+    },
+    "show_notification": true
+  }
+  

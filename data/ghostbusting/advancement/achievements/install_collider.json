@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:echo_shard",
+        "components": {
+          "minecraft:item_model": "ghostbusters:other/collider_upgrade"
+        }
+      },
+      "title": "Composite particles",
+      "description": "Install a Meson Collider upgrade on a Proton Pack using an upgrade bench",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "ghostbusting:achievements/craft_proton_pack",
+    "criteria": {
+      "": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

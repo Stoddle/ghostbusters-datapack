@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "components": {
+              "minecraft:custom_data": "{itemIDgb:4}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ghostbusting:items/switch/try_deploy"
+    }
+  }
+  

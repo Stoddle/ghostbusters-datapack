@@ -1,0 +1,3 @@
+execute if score .doGhostsSlime gbGamerules matches 1.. unless predicate ghostbusting:is_wearing_gb_outfit run function ghostbusting:ghosts/slime_player
+execute if predicate ghostbusting:is_wearing_gb_outfit if entity @s[advancements={ghostbusting:achievements/craft_book=true}] run advancement grant @s only ghostbusting:achievements/protect_slime
+advancement revoke @s only ghostbusting:hit_by_ghost

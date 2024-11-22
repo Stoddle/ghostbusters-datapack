@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #air run return run function ghostbusting:upgrade_bench/place
+give @p armor_stand[entity_data={id:"minecraft:armor_stand",Marker:1b,Invisible:1b,Tags:["newUpgradeBench"]},item_name='"Upgrade bench"',item_model="ghostbusters:other/upgrade_bench"] 1

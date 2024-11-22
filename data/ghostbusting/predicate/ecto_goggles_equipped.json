@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "head": {
+          "components": {
+            "minecraft:custom_data": "{ectoGoggles:1b}"
+          }
+        }
+      }
+    }
+  }  

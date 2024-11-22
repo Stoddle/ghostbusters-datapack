@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      "minecraft:crafting_table",
+      "minecraft:comparator",
+      "minecraft:repeater",
+      "minecraft:paper"
+    ],
+    "result": {
+      "id": "minecraft:armor_stand",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "'Upgrade bench'",
+        "minecraft:item_model": "ghostbusters:other/upgrade_bench",
+        "minecraft:entity_data": {
+          "id": "minecraft:armor_stand",
+          "Marker": true,
+          "Invisible": true,
+          "Tags": ["newUpgradeBench"]
+        }
+      }
+    }
+  }

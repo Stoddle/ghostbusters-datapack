@@ -1,0 +1,3 @@
+execute if items entity @s weapon.mainhand minecraft:iron_ingot run return run function ghostbusting:upgrade_bench/skins/install_default
+execute if items entity @s weapon.mainhand minecraft:copper_ingot run return run function ghostbusting:upgrade_bench/skins/install_vanilla
+execute if items entity @s weapon.mainhand minecraft:jack_o_lantern run return run function ghostbusting:upgrade_bench/skins/install_halloween

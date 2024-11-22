@@ -1,0 +1,2 @@
+execute as @e[tag=captureStream] at @s run function ghostbusting:items/wand/capture_stream/selector_effect
+execute if entity @e[tag=captureStream] run schedule function ghostbusting:items/wand/capture_stream/effect 1t

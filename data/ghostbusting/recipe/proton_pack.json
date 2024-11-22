@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "rdi",
+      "cbc",
+      "ihi"
+    ],
+    "key": {
+      "r": "minecraft:lightning_rod",
+      "d": "minecraft:diamond",
+      "i": "minecraft:iron_ingot",
+      "c": "minecraft:comparator",
+      "b": "minecraft:potion",
+      "h": "minecraft:iron_chestplate"
+    },
+    "result": {
+      "id": "minecraft:echo_shard",
+      "count": 1,
+      "components": {
+        "minecraft:item_model": "ghostbusters:proton_pack/default_pack",
+        "minecraft:custom_data": "{protonPack:1b}",
+        "minecraft:rarity": "common",
+        "minecraft:item_name": "'Proton pack'",
+        "max_stack_size": 1
+      }
+    },
+    "show_notification": true
+  }
+  

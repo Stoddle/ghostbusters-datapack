@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:echo_shard",
+        "components": {
+          "minecraft:item_model": "ghostbusters:pke_meter/pke_meter4"
+        }
+      },
+      "title": "Just like taking a snapshot",
+      "description": "Scan a ghost to get experience using the PKE Meter",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "ghostbusting:achievements/craft_pke",
+    "criteria": {
+      "": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

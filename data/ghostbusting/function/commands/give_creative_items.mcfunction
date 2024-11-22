@@ -1,0 +1,2 @@
+give @s armor_stand[item_name='"Spawn trap"',item_model="ghostbusters:other/spawn_trap",entity_data={id:armor_stand,Marker:1b,Invisible:1b,Tags:["newSpawnTrap","gbEntity"]},max_stack_size=64]
+give @s armor_stand[item_name='"Ghost spawner"',item_model="ghostbusters:other/ghost_spawner",entity_data={id:armor_stand,Marker:1b,Invisible:1b,Tags:["ghostSpawner","gbEntity"]},custom_data={ghostSpawner:1b},max_stack_size=64]

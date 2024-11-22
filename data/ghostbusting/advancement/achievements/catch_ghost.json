@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:echo_shard",
+        "components": {
+          "minecraft:item_model": "ghostbusters:trap/trap_empty"
+        }
+      },
+      "title": "My very first ghost",
+      "description": "Catch your first ghost using a ghost trap and a Proton Pack",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "ghostbusting:achievements/craft_proton_pack",
+    "criteria": {
+      "": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

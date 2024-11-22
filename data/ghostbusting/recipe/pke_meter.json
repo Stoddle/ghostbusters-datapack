@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "ipi",
+      " c ",
+      " s "
+    ],
+    "key": {
+      "i": "minecraft:iron_ingot",
+      "c": "minecraft:compass",
+      "s": "minecraft:stick",
+      "p": "minecraft:repeater"
+    },
+    "result": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "count": 1,
+      "components": {
+        "minecraft:item_model": "ghostbusters:pke_meter/pke_meter0",
+        "minecraft:custom_data": "{itemIDgb:2}",
+        "minecraft:item_name": "'PKE Meter'",
+        "minecraft:unbreakable": {
+          "show_in_tooltip": false
+        }
+      }
+    },
+    "show_notification": true
+  }
+  

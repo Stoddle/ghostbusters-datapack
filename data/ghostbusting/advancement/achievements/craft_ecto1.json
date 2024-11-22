@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:echo_shard",
+        "components": {
+          "minecraft:item_model": "ghostbusters:other/ecto-1"
+        }
+      },
+      "title": "WEE WOO WEE WOO",
+      "description": "Make an Ecto-1",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "ghostbusting:achievements/craft_book",
+    "criteria": {
+      "": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "ghostbusting:ecto-1"
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,2 @@
+execute as @e[tag=mesonProjectile] at @s run function ghostbusting:items/wand/collider/selector_meson_projectile
+execute if entity @e[tag=mesonProjectile] run schedule function ghostbusting:items/wand/collider/tick_meson_projectile 1t

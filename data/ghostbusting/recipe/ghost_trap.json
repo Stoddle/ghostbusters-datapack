@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      " t ",
+      "ici",
+      "idi"
+    ],
+    "key": {
+      "d": "minecraft:dispenser",
+      "i": "minecraft:iron_ingot",
+      "c": "minecraft:clock",
+      "t": "minecraft:iron_trapdoor"
+    },
+    "result": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "count": 1,
+      "components": {
+        "minecraft:item_model": "ghostbusters:trap/trap_empty",
+        "minecraft:custom_data": "{itemIDgb:3}",
+        "minecraft:unbreakable": {
+          "show_in_tooltip": false
+        },
+        "minecraft:item_name": "'Muon Trap'"
+      }
+    },
+    "show_notification": true
+  }
+  

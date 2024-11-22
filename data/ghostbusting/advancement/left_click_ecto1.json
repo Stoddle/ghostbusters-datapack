@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"ecto1Door\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ghostbusting:ecto-1/try_remove"
+  }
+}

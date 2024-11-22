@@ -1,0 +1,1 @@
+$tp @e[tag=streamEndpoint,scores={streamID=$(current_stream_id)}] ~ ~ ~

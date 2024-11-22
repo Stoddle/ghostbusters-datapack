@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "iai",
+      "gig",
+      "ili"
+    ],
+    "key": {
+      "i": "minecraft:iron_ingot",
+      "a": "minecraft:amethyst_shard",
+      "g": "minecraft:glass_pane",
+      "l": "minecraft:leather_helmet"
+    },
+    "result": {
+      "id": "minecraft:echo_shard",
+      "count": 1,
+      "components": {
+        "minecraft:item_model": "ghostbusters:other/ecto_goggles",
+        "minecraft:custom_data": "{ectoGoggles:1b}",
+        "minecraft:item_name": "'Ecto Goggles'",
+        "minecraft:rarity": "common",
+        "minecraft:equippable": {
+          "slot": "head",
+          "camera_overlay": "ghostbusters:item/ecto_goggles"
+        },
+        "minecraft:max_stack_size": 1
+      }
+    },
+    "show_notification": true
+  }
+  

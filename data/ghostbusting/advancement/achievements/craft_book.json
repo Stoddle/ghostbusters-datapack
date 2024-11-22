@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:knowledge_book",
+      "components": {
+        "minecraft:item_model": "ghostbusters:other/ghostbusters_book"
+      }
+    },
+    "title": "The art of ghost hunting",
+    "description": "Make a ghostbusters notebook using a book and a slime ball",
+    "background": "minecraft:textures/block/slime_block.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "ghostbusting:book"
+      }
+    }
+  }
+}

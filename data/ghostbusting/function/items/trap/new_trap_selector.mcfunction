@@ -1,0 +1,1 @@
+execute if predicate ghostbusting:is_on_ground run function ghostbusting:items/trap/make_trap_interactable

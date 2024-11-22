@@ -1,0 +1,1 @@
+ride @s mount @e[tag=ecto1,limit=1,sort=nearest]

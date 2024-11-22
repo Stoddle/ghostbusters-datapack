@@ -1,0 +1,182 @@
+{
+ "pack.changestream": {
+  "sounds": [
+   "ghostbusters:pack/changestream"
+  ]
+ },
+ "pack.powerup": {
+  "sounds": [
+   "ghostbusters:pack/powerup"
+  ]
+  },
+ "pack.lockon": {
+  "sounds": [
+   "ghostbusters:pack/lockon"
+  ]
+  },
+ "trap.catch": {
+  "sounds": [
+   "ghostbusters:trap/catch"
+  ]
+  },
+ "trap.beep": {
+  "sounds": [
+   "ghostbusters:trap/beep"
+  ]
+  },
+ "trap.ambient": {
+  "sounds": [
+   "ghostbusters:trap/trapsound"
+  ]
+  },
+ "trap.deploy": {
+  "sounds": [
+   "ghostbusters:trap/trapdeploy"
+  ]
+  },
+ "other.containmentunit": {
+  "sounds": [
+   "ghostbusters:other/containmentunit"
+  ]
+  },
+ "pke.ambient": {
+  "sounds": [
+   "ghostbusters:pke/pkeambient"
+  ]
+  },
+ "pke.lower": {
+  "sounds": [
+   "ghostbusters:pke/pkelower"
+  ]
+  },
+ "other.goggles_put_on": {
+  "sounds": [
+   "ghostbusters:other/goggles_on"
+  ]
+  },
+ "pke.scan": {
+  "sounds": [
+   "ghostbusters:pke/pkescan"
+  ]
+  },
+ "pke.raise": {
+  "sounds": [
+   "ghostbusters:pke/pkeraise"
+  ]
+  },
+ "other.secret": {
+  "sounds": [
+   "ghostbusters:other/pickup"
+  ]
+  },
+ "other.drill": {
+  "sounds": [
+   "ghostbusters:other/drill"
+  ]
+  },
+  "pack.proton.start": {
+    "sounds": [
+     "ghostbusters:pack/proton/start"
+    ]
+   },
+   "pack.proton.loop": {
+    "sounds": [
+     "ghostbusters:pack/proton/proton_loop"
+    ]
+   },
+   "pack.capture.loop": {
+    "sounds": [
+     "ghostbusters:pack/proton/capture_loop"
+    ]
+   },
+   "pack.proton.stop": {
+    "sounds": [
+     "ghostbusters:pack/proton/stop"
+    ]
+   },
+   "pack.cross.start": {
+    "sounds": [
+     "ghostbusters:pack/proton/cross_start"
+    ]
+   },
+   "pack.cross.intensify": {
+    "sounds": [
+     "ghostbusters:pack/proton/cross_intensify"
+    ]
+   },
+   "pack.cross.explode": {
+    "sounds": [
+     "ghostbusters:pack/proton/cross_explode"
+    ]
+   },
+   "pack.stasis.start": {
+    "sounds": [
+     "ghostbusters:pack/stasis/start"
+    ]
+   },
+   "pack.stasis.loop": {
+    "sounds": [
+     "ghostbusters:pack/stasis/loop"
+    ]
+   },
+   "pack.stasis.stop": {
+    "sounds": [
+     "ghostbusters:pack/stasis/stop"
+    ]
+   },
+   "pack.stasis.switch_to": {
+    "sounds": [
+     "ghostbusters:pack/stasis/switch_to_stasis"
+    ]
+   },
+   "pack.collider.shoot": {
+    "sounds": [
+     "ghostbusters:pack/collider/shoot"
+    ]
+   },
+   "pack.collider.hit": {
+    "sounds": [
+     "ghostbusters:pack/collider/hit"
+    ]
+   },
+   "pack.collider.switch_to": {
+    "sounds": [
+     "ghostbusters:pack/collider/switch_to_collider"
+    ]
+   },
+   "pack.tethers.shoot": {
+    "sounds": [
+     "ghostbusters:pack/tethers/shoot"
+    ]
+   },
+   "pack.tethers.hit": {
+    "sounds": [
+     "ghostbusters:pack/tethers/hit"
+    ]
+   },
+   "pack.tethers.switch_to": {
+    "sounds": [
+     "ghostbusters:pack/tethers/switch_to_tethers"
+    ]
+   },
+   "ecto-1.door": {
+    "sounds": [
+     "ghostbusters:ecto-1/door"
+    ]
+   },
+   "ecto-1.accelerate": {
+    "sounds": [
+     "ghostbusters:ecto-1/accelerate"
+    ]
+   },
+   "ecto-1.idle_loop": {
+    "sounds": [
+     "ghostbusters:ecto-1/idle_loop"
+    ]
+   },
+   "ecto-1.honk": {
+    "sounds": [
+     "ghostbusters:ecto-1/honk"
+    ]
+   }
+}

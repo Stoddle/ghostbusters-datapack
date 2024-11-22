@@ -1,0 +1,3 @@
+data modify entity @e[tag=containmentUnitDisplay,limit=1,sort=nearest] item.components."minecraft:item_model" set value "ghostbusters:containment_unit/unit"
+give @p[advancements={ghostbusting:left_click_unit=true}] minecraft:warped_fungus_on_a_stick[item_name='"Muon Trap (full)"',custom_data={trapFull:1b},item_model="ghostbusters:trap/trap_full",unbreakable={show_in_tooltip:false}] 1
+scoreboard players set @s containsFullTrap 0

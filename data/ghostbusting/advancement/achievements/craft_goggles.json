@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:echo_shard",
+        "components": {
+          "minecraft:item_model": "ghostbusters:other/ecto_goggles"
+        }
+      },
+      "title": "I see you...",
+      "description": "Make a pair of Ecto Goggles",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "ghostbusting:achievements/craft_pke",
+    "criteria": {
+      "": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "ghostbusting:ecto_goggles"
+        }
+      }
+    }
+  }
+  

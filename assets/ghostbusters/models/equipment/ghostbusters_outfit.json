@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "ghostbusters:ghostbusters_outfit"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "ghostbusters:ghostbusters_outfit"
+      }
+    ]
+  }
+}

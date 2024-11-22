@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "iin",
+      "ib ",
+      "r  "
+    ],
+    "key": {
+      "i": "minecraft:iron_ingot",
+      "n": "minecraft:iron_nugget",
+      "r": "minecraft:redstone_block",
+      "b": "minecraft:stone_button"
+    },
+    "result": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "count": 1,
+      "components": {
+        "minecraft:item_model": "ghostbusters:other/drill",
+        "minecraft:item_name": "Tool",
+        "minecraft:unbreakable": {
+          "show_in_tooltip": false
+        },
+        "minecraft:custom_data": "{itemIDgb:5}"
+      }
+    },
+    "show_notification": true
+  }
+  

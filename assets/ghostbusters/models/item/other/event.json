@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "ghostbusters:item/event",
+		"layer1": "ghostbusters:item/event"
+    }
+}

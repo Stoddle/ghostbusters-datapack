@@ -1,0 +1,1 @@
+$kill @e[tag=stasisDisplay,scores={ghostID=$(current_ghost_id)}]

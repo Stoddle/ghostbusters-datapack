@@ -1,0 +1,1 @@
+$execute as @e[tag=protonStream,distance=..4] unless score @s streamID matches $(current_stream_cross_id) run execute as @a[scores={streamID=$(current_stream_cross_id)}] at @s run function ghostbusting:items/wand/proton_stream/do_cross_stream

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "lll",
+      "l l",
+      "l l"
+    ],
+    "key": {
+      "l": "minecraft:phantom_membrane"
+    },
+    "result": {
+      "id": "minecraft:leather_leggings",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "'Flight suit (bottom half)'",
+        "minecraft:item_model": "ghostbusters:other/suit_bottom",
+        "minecraft:equippable": {
+          "slot": "legs",
+          "model": "ghostbusters:ghostbusters_outfit"
+        },
+        "minecraft:custom_data": "{ghostbustersOutfit:1b}",
+        "minecraft:unbreakable": {
+          "show_in_tooltip": false
+        }
+      }
+    },
+    "show_notification": true
+  }
+  

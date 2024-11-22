@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:echo_shard",
+        "components": {
+          "minecraft:item_model": "ghostbusters:other/stasis_upgrade"
+        }
+      },
+      "title": "\"Freeze\" ray",
+      "description": "Install a Stasis Stream upgrade on a Proton Pack using an upgrade bench",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "ghostbusting:achievements/craft_proton_pack",
+    "criteria": {
+      "": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:echo_shard",
+        "components": {
+          "minecraft:item_model": "ghostbusters:pke_meter/pke_meter0"
+        }
+      },
+      "title": "Psychokinetic dowsing",
+      "description": "Make a PKE Meter",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "ghostbusting:achievements/craft_book",
+    "criteria": {
+      "": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "ghostbusting:pke_meter"
+        }
+      }
+    }
+  }
+  

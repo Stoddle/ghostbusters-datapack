@@ -1,0 +1,2 @@
+execute if score @s containsEmptyTrap matches 0 if score @s containsFullTrap matches 0 run return run function ghostbusting:containment_unit/remove
+tellraw @p [{"text":"Can't remove a Containment Unit while a trap is inside of it.","color":"red"}]

@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "ghostbusters:item/ghostbusters_boots",
+		"layer1": "ghostbusters:item/ghostbusters_boots"
+    }
+}

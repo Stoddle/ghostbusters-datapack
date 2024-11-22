@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "ghostbusting:input_forward"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "ghostbusting:input_backward"
+      }
+    ]
+  }
+  

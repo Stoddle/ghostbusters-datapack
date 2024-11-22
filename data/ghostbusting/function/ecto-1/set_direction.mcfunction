@@ -1,0 +1,1 @@
+execute if predicate ghostbusting:input_forward run tp @e[tag=directionEcto] ^ ^ ^1

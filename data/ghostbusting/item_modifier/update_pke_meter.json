@@ -1,0 +1,78 @@
+[
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:item_model": "ghostbusters:pke_meter/pke_meter0"
+      },
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "pkeDistance": 0
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:item_model": "ghostbusters:pke_meter/pke_meter1"
+      },
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "pkeDistance": 4
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:item_model": "ghostbusters:pke_meter/pke_meter2"
+      },
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "pkeDistance": 3
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:item_model": "ghostbusters:pke_meter/pke_meter3"
+      },
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "pkeDistance": 2
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:item_model": "ghostbusters:pke_meter/pke_meter4"
+      },
+      "conditions": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "pkeDistance": 1
+          }
+        }
+      ]
+    }
+  ]
+  

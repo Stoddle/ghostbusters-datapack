@@ -1,0 +1,2 @@
+execute as @e[tag=newTrapCone] run data merge entity @s {interpolation_duration:4,start_interpolation:0,teleport_duration:0,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1.5f,0f],scale:[2f,4f,2f]}}
+tag @e[tag=newTrapCone] remove newTrapCone

@@ -1,0 +1,2 @@
+execute unless predicate ghostbusting:riding_ecto1 run execute as @e[tag=ecto1,limit=1,sort=nearest] at @s run function ghostbusting:ecto-1/remove
+advancement revoke @s only ghostbusting:left_click_ecto1

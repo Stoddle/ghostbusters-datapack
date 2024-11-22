@@ -1,0 +1,2 @@
+execute as @e[scores={stasisProgress=1..}] at @s run function ghostbusting:items/wand/stasis/stasis_selector
+execute if entity @e[scores={stasisProgress=1..}] run schedule function ghostbusting:items/wand/stasis/tick_stasis 1t

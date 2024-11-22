@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "iii",
+      "isi",
+      "iui"
+    ],
+    "key": {
+      "i": "minecraft:iron_ingot",
+      "s": "minecraft:glowstone",
+      "u": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "result": {
+      "id": "minecraft:echo_shard",
+      "count": 1,
+      "components": {
+        "minecraft:item_model": "ghostbusters:other/collider_upgrade",
+        "minecraft:item_name": "'Meson Collider upgrade'",
+        "minecraft:custom_data": "{upgradeItem:1b,upgradeID:3}",
+        "minecraft:rarity": "common",
+        "minecraft:max_stack_size": 1
+      }
+    },
+    "show_notification": true
+  }
+  

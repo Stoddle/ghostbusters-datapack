@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+      "minecraft:book",
+      "minecraft:slime_ball"
+    ],
+    "result": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "'Ghostbusters notebook'",
+        "minecraft:custom_data": "{itemIDgb:6}",
+        "minecraft:item_model": "ghostbusters:other/ghostbusters_book",
+        "minecraft:unbreakable": {
+          "show_in_tooltip": false
+        }
+      }
+    }
+  }

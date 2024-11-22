@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "cic",
+      "ihi",
+      "cic"
+    ],
+    "key": {
+      "i": "minecraft:iron_block",
+      "c": "minecraft:copper_block",
+      "h": "minecraft:ender_chest"
+    },
+    "result": {
+      "id": "minecraft:armor_stand",
+      "count": 1,
+      "components": {
+        "minecraft:item_model": "ghostbusters:containment_unit/unit",
+        "minecraft:item_name": "'Containment Unit'",
+        "minecraft:max_stack_size": 1,
+        "minecraft:entity_data": {
+          "id": "minecraft:armor_stand",
+          "Marker": true,
+          "Invisible": true,
+          "Tags": ["newCU"]
+        }
+      }
+    },
+    "show_notification": true
+  }

@@ -1,0 +1,1 @@
+$kill @e[scores={ecto1ID=$(current_ecto1_id)}]
